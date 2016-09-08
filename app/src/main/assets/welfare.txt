@@ -1,0 +1,58 @@
+{
+panic: [
+{
+id: "2412",
+endtime: 1472097600000,
+pic: "http://pc1.img.ymatou.com/G02/M04/E3/67/CgvUBVe9vyOAV47CAACXZZs5GrU558_o.jpg",
+type: 1,
+href: "http://evt.ymatou.com/n770",
+title: "今日限时抢",
+share: ""
+},
+{
+id: "2417",
+endtime: 1472097600000,
+pic: "http://pc1.img.ymatou.com/G02/M09/E4/37/CgvUA1e91VmAMYrwAAC5qcblOUg650_o.jpg",
+type: 1,
+href: "http://evt.ymatou.com/n781",
+title: "今日限时抢",
+share: ""
+},
+{
+id: "2413",
+endtime: 1472097600000,
+pic: "http://pc1.img.ymatou.com/G02/M05/E3/D4/CgvUA1e9v2SAVf3qAAB9GcBIWYA268_o.jpg",
+type: 1,
+href: "http://evt.ymatou.com/n771",
+title: "今日限时抢",
+share: ""
+},
+{
+id: "2414",
+endtime: 1472097600000,
+pic: "http://pc1.img.ymatou.com/G02/M05/E3/69/CgvUBVe9v4aAMaFRAABWy73vn2g252_o.jpg",
+type: 1,
+href: "http://evt.ymatou.com/n772",
+title: "今日限时抢",
+share: ""
+},
+{
+id: "2415",
+endtime: 1472097600000,
+pic: "http://pc1.img.ymatou.com/G02/M06/E3/02/CgvUBFe9v6WAP85NAAC6EK5e5Vg469_o.jpg",
+type: 1,
+href: "http://evt.ymatou.com/n773",
+title: "今日限时抢",
+share: ""
+},
+{
+id: "2416",
+endtime: 1472097600000,
+pic: "http://pc1.img.ymatou.com/G02/M06/E3/02/CgvUBFe9v8CAHyXVAACELcKFT_M328_o.jpg",
+type: 1,
+href: "http://evt.ymatou.com/n775",
+title: "今日限时抢",
+share: ""
+}
+]
+}

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:apk="http://schemas.android.com/apk/res/android"
+    apk:oneshot="false" >
+
+    <item
+        apk:drawable="@drawable/head_loading"
+        apk:duration="100"/>
+    <item
+        apk:drawable="@drawable/head_loading1"
+        apk:duration="100"/>
+
+</animation-list>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/c12"
+    android:descendantFocusability="blocksDescendants"
+    android:gravity="center_vertical"
+    android:padding="15dp">
+
+
+    <CheckBox
+        android:id="@+id/group_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:button="@drawable/checkbox_selector"
+        android:background="@null" />
+
+    <TextView
+        android:id="@+id/group_title"
+        style="@style/style_c5_s16"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="8dp"
+        android:layout_toRightOf="@+id/group_image"
+        android:text="2016年5月" />
+
+
+    <TextView
+        android:id="@+id/group_price"
+        style="@style/style_c8_s16"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:drawableRight="@drawable/arrow_down_icon"
+        android:drawablePadding="8dp"
+        android:text="￥1205.00" />
+
+</RelativeLayout>

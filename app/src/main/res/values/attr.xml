@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="CountView">
+        <attr name="textColor" format="color" />
+        <attr name="bgColor" format="color" />
+        <attr name="textSize" format="dimension" />
+        <attr name="padding" format="dimension" />
+        <attr name="pointRadius" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="LoadingLayout">
+        <attr name="empty_pager_layout" format="reference" />
+        <attr name="failed_pager_layout" format="reference" />
+        <attr name="loading_pager_layout" format="reference" />
+        <attr name="failed_text_id" format="reference" />
+        <attr name="empty_text_id" format="reference" />
+        <attr name="retry_button_id" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="Banner">
+        <attr name="default_image" format="reference" />
+        <attr name="delay_time" format="dimension" />
+        <attr name="is_auto_play" format="boolean" />
+        <attr name="title_background" format="color|reference" />
+        <attr name="title_textcolor" format="color" />
+        <attr name="title_textsize" format="dimension" />
+        <attr name="title_height" format="dimension" />
+        <attr name="indicator_width" format="dimension" />
+        <attr name="indicator_height" format="dimension" />
+        <attr name="indicator_margin" format="dimension" />
+        <attr name="indicator_radius" format="dimension" />
+        <attr name="indicator_drawable_selected" format="reference" />
+        <attr name="indicator_drawable_unselected" format="reference" />
+        <!--<attr name="indicator_animator" format="reference" />-->
+        <!--<attr name="indicator_animator_reverse" format="reference" />-->
+    </declare-styleable>
+
+    <declare-styleable name="RoundedImageView">
+        <attr name="corner_radius" format="dimension" />
+        <attr name="top_left_corner_radius" format="dimension" />
+        <attr name="top_right_corner_radius" format="dimension" />
+        <attr name="bottom_left_corner_radius" format="dimension" />
+        <attr name="bottom_right_corner_radius" format="dimension" />
+        <attr name="border_width" format="dimension" />
+        <attr name="border_color" format="color" />
+        <attr name="round_background" format="boolean" />
+        <attr name="android:scaleType" />
+    </declare-styleable>
+
+    <declare-styleable name="RecyclerViewPager">
+        <attr name="rvp_triggerOffset" format="float" />
+        <attr name="rvp_flingFactor" format="float" />
+        <attr name="rvp_singlePageFling" format="boolean" />
+    </declare-styleable>
+
+
+    <declare-styleable name="ScrollViewWrapper">
+        <attr name="wrapper_padding" format="integer"></attr>
+    </declare-styleable>
+
+    <declare-styleable name="Damp">
+        <attr name="pageone_padding" format="integer"></attr>
+    </declare-styleable>
+</resources>

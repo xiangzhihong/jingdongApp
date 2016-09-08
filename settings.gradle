@@ -1,0 +1,3 @@
+include ':app', ':swipemenu', 'pull_to_refresh_lib'
+project(':pull_to_refresh_lib').projectDir = new File('Library/pull_to_refresh_lib')
+project(':swipemenu').projectDir = new File('Library/swipemenu')

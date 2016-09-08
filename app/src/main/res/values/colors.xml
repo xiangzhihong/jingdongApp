@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="test">#FFFFFF</color>
+
+    <color name="c1">#f1f1f1</color>
+    <color name="c2">#dedede</color>
+    <color name="c3">#cecece</color>
+    <color name="c4">#C7CDD6</color>
+    <color name="c5">#B3B3B3</color>
+    <color name="c6">#646464</color>
+    <color name="c7">#383838</color>
+    <color name="c8">#ff6c6c</color>
+    <color name="c9">#cc3333</color>
+    <color name="c10">#e79e99</color>
+    <color name="c11">#ffe8e7</color>
+    <color name="c12">#ffffff</color>
+    <color name="c13">#9FCEF5</color>
+    <color name="c14">#96D996</color>
+    <color name="c15">#F29C24</color>
+    <color name="c16">#0079FF</color>
+    <color name="c17">#79889F</color>
+    <color name="c18">#e8e8e8</color>
+    <color name="c19">#e11c00</color>
+    <color name="c20">#FF3B30</color>
+    <color name="c21">#f28f25</color>
+    <color name="c22">#60bc22</color>
+    <color name="c23">#5474af</color>
+    <color name="c24">#FF7214</color>
+    <color name="c25">#585B6A</color>
+    <color name="c26">#424455</color>
+    <color name="c27">#15B3ED</color>
+    <color name="c28"> #0F8AC3</color>
+
+
+</resources>

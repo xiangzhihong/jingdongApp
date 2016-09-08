@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/c12"
+    android:orientation="vertical">
+
+  <com.yju.app.widght.dampscrollview.ScrollViewWrapper
+      android:id="@+id/scrollViewWrapper"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:scrollbars="none"
+      app:wrapper_padding="100"
+      >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+      <com.yju.app.widght.dampscrollview.PageOneScrollView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:scrollbars="none"
+          app:pageone_padding="100"
+          >
+        <include layout="@layout/include_detail_pageone"/>
+
+      </com.yju.app.widght.dampscrollview.PageOneScrollView>
+
+
+      <com.yju.app.widght.dampscrollview.PageTwoScrollView
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:scrollbars="none">
+
+        <include layout="@layout/include_detail_pagetwo"/>
+      </com.yju.app.widght.dampscrollview.PageTwoScrollView>
+
+    </LinearLayout>
+  </com.yju.app.widght.dampscrollview.ScrollViewWrapper>
+</FrameLayout>

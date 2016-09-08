@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/include_title_bar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/c12"
+            android:gravity="center_vertical"
+            android:minHeight="45dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp">
+
+            <TextView
+                style="@style/style_c6_s18"
+                android:drawableLeft="@drawable/location_icon"
+                android:drawablePadding="5dp"
+                android:text="社区" />
+
+
+            <TextView
+                style="@style/style_c6_s16"
+                android:layout_alignParentRight="true"
+                android:text="绿地橄榄城" />
+        </RelativeLayout>
+
+        <View style="@style/horizontal_line" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/c12"
+            android:gravity="center_vertical"
+            android:minHeight="45dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp">
+
+            <TextView
+                style="@style/style_c6_s18"
+                android:drawableLeft="@drawable/build_icon"
+                android:drawablePadding="5dp"
+                android:text="楼栋" />
+
+
+            <EditText
+                style="@style/style_c5_s16"
+                android:layout_alignParentRight="true"
+                android:background="@null"
+                android:drawablePadding="5dp"
+                android:drawableRight="@drawable/arrow"
+                android:text="请选择楼栋" />
+        </RelativeLayout>
+
+        <View style="@style/horizontal_line" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/c12"
+            android:gravity="center_vertical"
+            android:minHeight="45dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp">
+
+            <TextView
+                style="@style/style_c6_s18"
+                android:drawableLeft="@drawable/door_icon"
+                android:drawablePadding="5dp"
+                android:text="门牌号" />
+
+
+            <EditText
+                style="@style/style_c5_s16"
+                android:layout_alignParentRight="true"
+                android:background="@null"
+                android:drawablePadding="5dp"
+                android:drawableRight="@drawable/arrow"
+                android:text="请选择门牌号" />
+        </RelativeLayout>
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/c8"
+        android:gravity="center"
+        android:minHeight="45dp"
+        android:text="保存"
+        android:textColor="@color/c12"
+        android:textSize="16sp" />
+</LinearLayout>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/c18"
+    >
+    <com.handmark.pulltorefresh.library.PullToRefreshScrollView xmlns:ptr="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/pull_refresh_scrollview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fadingEdge="none"
+        android:scrollbars="none"
+        ptr:ptrMode="both"
+        ptr:ptrOverScroll="false"
+        ptr:ptrShowIndicator="false">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.yju.app.widght.banner.BannerView
+                android:id="@+id/banner_view"
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                app:indicator_drawable_selected="@drawable/point_press_bg"
+                app:indicator_drawable_unselected="@drawable/point_normal_bg"
+                app:indicator_radius="7dp"
+                />
+
+            <com.yju.app.shihui.welfare.view.WelfareView
+                android:id="@+id/welfare_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="160dp"
+                />
+
+            <com.yju.app.shihui.welfare.view.LampView
+                android:id="@+id/lamp_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+
+            <com.yju.app.shihui.welfare.view.EstateView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+
+            <com.yju.app.shihui.welfare.view.SpeedHourView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                />
+
+            <com.yju.app.shihui.welfare.view.ValueSaleView
+                android:id="@+id/value_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="160dp"
+                />
+
+            <com.yju.app.shihui.welfare.view.SpecialSaleView
+                android:id="@+id/special_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="160dp"
+                />
+
+            </LinearLayout>
+
+</com.handmark.pulltorefresh.library.PullToRefreshScrollView>
+
+ <include layout="@layout/layout_welfare_toolbar"   />
+</RelativeLayout>

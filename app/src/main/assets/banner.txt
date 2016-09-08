@@ -1,0 +1,89 @@
+{
+banner: [
+{
+id: 2875,
+type: 1,
+pic: "http://pc1.img.ymatou.com/G02/M0B/DC/76/CgvUA1e9CA6ATu6eAAGJcp87nMs401_o.jpg",
+href: "http://tuan.ymatou.com/list",
+title: "",
+sharelink: ""
+},
+{
+id: 2887,
+type: 6,
+pic: "http://pc1.img.ymatou.com/G02/M0A/CD/80/CgvUA1e6rquABAmMAADx3BnaxLI842_o.jpg",
+href: "100479550",
+title: "",
+sharelink: ""
+},
+{
+id: 2890,
+type: 6,
+pic: "http://pc1.img.ymatou.com/G02/M01/DC/D1/CgvUA1e9EHyAC9IwAAFG0KwpfXI416_o.jpg",
+href: "100476190",
+title: "",
+sharelink: ""
+},
+{
+id: 2891,
+type: 6,
+pic: "http://pc1.img.ymatou.com/G02/M02/DD/93/CgvUBFe9PgaAQcQ8AAHNS-dpUqo671_o.jpg",
+href: "100480881",
+title: "",
+sharelink: ""
+},
+{
+id: 2892,
+type: 6,
+pic: "http://pc1.img.ymatou.com/G02/M03/DB/FD/CgvUBVe9Bn2AJQj3AAHI2GyiSWo092_o.jpg",
+href: "100480868",
+title: "",
+sharelink: ""
+}
+],
+operation: {
+activity: {
+id: 2895,
+type: 1,
+pic: "http://pc1.img.ymatou.com/G02/M07/D9/00/CgvUBFe8aUqAcDEtAAEujPDxBWA897_o.png",
+href: "http://evt.ymatou.com/n516?shareTimelineContent=ShareTimelineContent678&title=洋码头周年庆-全球折扣扫货季&backFlag=1&msgFlag=1&shareFlag=1&ShareTitle=洋码头6周年庆-狂欢日，你喜欢的国外包包鞋秒杀低至6元&ShareLinkUrl=http%3A%2F%2Fevt.ymatou.com%2Fn516%3FshareSource%3DsaohuoApp&SharePicUrl=http%3A%2F%2Fstaticontent.ymatou.com%2Fimages%2Fymt818%2Fsharekh.jpg&ShareContent=整点6元秒杀，更多爆款洋货低至1折&ShareTimelineContent=ShareTimelineContent678&showWeiboFlag=0&forBuyerApp_needJumpFlag=1",
+spic: "http://pc1.img.ymatou.com/G02/M07/D9/00/CgvUBFe8aU-AWkjbAAAvLZSyOoE231_o.png",
+title: "",
+sharelink: ""
+},
+list: [
+{
+id: 1762,
+type: 1,
+pic: "http://pc1.img.ymatou.com/G02/M06/D9/12/CgvUBFe8a62ANyHUAAAyyIAyHs0540_o.png",
+href: "http://jyh.ymatou.com/index",
+title: "特卖",
+sharelink: ""
+},
+{
+id: 1763,
+type: 1,
+pic: "http://pc1.img.ymatou.com/G02/M07/D9/FD/CgvUA1e8a7mAT76bAAAvjKZlDUM193_o.png",
+href: "http://m.ymatou.com/topic/forBuyerApp/topic/newProductList",
+title: "新品",
+sharelink: ""
+},
+{
+id: 1764,
+type: 1,
+pic: "http://pc1.img.ymatou.com/G02/M07/D9/FE/CgvUA1e8a8-AF9ASAAAv12B79HQ086_o.png",
+href: "http://live.ymatou.com/forBuyerApp/seller/sellerAll",
+title: "买手",
+sharelink: ""
+},
+{
+id: 1601,
+type: 1,
+pic: "http://pc1.img.ymatou.com/G02/M07/D9/FE/CgvUA1e8a9qAK1nhAAAx213OTPM721_o.png",
+href: "",
+title: "分类",
+sharelink: ""
+}
+]
+}
+}

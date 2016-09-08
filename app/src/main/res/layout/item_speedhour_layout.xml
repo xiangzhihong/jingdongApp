@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ptr="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/speed_view"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:gravity="center">
+
+    <ImageView
+        android:id="@+id/speed_image"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/speed_icon" />
+
+    <TextView
+        android:id="@+id/speed_name"
+        style="@style/style_c6_s14"
+        android:layout_marginTop="5dp"
+        android:text="蜂蜜柚子茶"
+        android:maxLines="1"/>
+
+    <TextView
+        android:id="@+id/speed_price"
+        style="@style/style_c8_s14"
+        android:layout_marginTop="5dp"
+        android:text="￥30.0"
+        android:maxLength="6"
+        android:maxLines="1"/>
+</LinearLayout>

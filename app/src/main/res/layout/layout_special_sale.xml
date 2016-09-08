@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:background="@color/c12"
+    android:clipChildren="false"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <View style="@style/vertical_bold_line_c8" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <TextView
+                style="@style/style_c6_s16"
+                android:layout_centerVertical="true"
+                android:text="专场特卖" />
+
+            <TextView
+                android:id="@+id/special_more"
+                style="@style/style_c6_s14"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:drawablePadding="3dp"
+                android:drawableRight="@drawable/arrow"
+                android:text="更多" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <com.yju.app.widght.MeasureListView
+        android:id="@+id/special_listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@color/c5"
+        android:dividerHeight="1px"
+        android:scrollbars="none"
+        android:scrollingCache="false"
+        android:animationCache="false" />
+</LinearLayout>
+

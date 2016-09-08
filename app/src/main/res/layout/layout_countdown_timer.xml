@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    >
+
+    <TextView
+        android:id="@+id/hour_decade"
+        style="@style/style_countdown_timer" />
+
+    <TextView
+        android:id="@+id/hour_unit"
+        style="@style/style_countdown_timer"
+        android:layout_marginLeft="1dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="@android:color/white"
+        android:gravity="center"
+        android:text=":"
+        android:textColor="@color/c7"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/min_decade"
+        style="@style/style_countdown_timer" />
+
+    <TextView
+        android:id="@+id/min_unit"
+        style="@style/style_countdown_timer"
+        android:layout_marginLeft="1dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="@android:color/white"
+        android:gravity="center"
+        android:text=":"
+        android:textColor="@color/c7"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/sec_decade"
+        style="@style/style_countdown_timer" />
+
+    <TextView
+        android:id="@+id/sec_unit"
+        style="@style/style_countdown_timer"
+        android:layout_marginLeft="1dp" />
+
+</LinearLayout>

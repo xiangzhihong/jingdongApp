@@ -1,0 +1,74 @@
+{
+live: {
+nums: 1038,
+products: 250228,
+visitors: 695975,
+pic: "http://img.ymatou.com/app/appmarkets/markets/4/8.jpg",
+type: 0,
+countries: 30,
+sellers: 11931,
+lives: [
+{
+id: 785878,
+pic: "http://pc1.img.ymatou.com/G02/M07/E9/B8/CgvUBVe-we2ABIukAACkMu-1R_c261_o.jpg",
+endtime: 1472259540000,
+content: "带你逛遍巴黎老佛爷",
+visitors: 0,
+country: "法国",
+sellername: "巴黎宝贝药妆",
+hasvedio: true
+},
+{
+id: 793069,
+pic: "http://pc1.img.ymatou.com/G02/M07/39/21/CgvUBVekJcKAK6TVAACUjhx1Jkw953_o.jpg",
+endtime: 1472263140000,
+content: "比斯特折扣村惊喜特价",
+visitors: 0,
+country: "英国",
+sellername: "含含英国购",
+hasvedio: true
+},
+{
+id: 795217,
+pic: "http://pc1.img.ymatou.com/G02/M06/3B/AF/CgvUBVekYB6ACC7dAACASr6b9ZI169_o.jpg",
+endtime: 1472277540000,
+content: "大牌奢侈美包精品选购",
+visitors: 0,
+country: "法国",
+sellername: "巴黎淘购",
+hasvedio: true
+},
+{
+id: 794799,
+pic: "http://pc1.img.ymatou.com/G02/M05/EA/1E/CgvUA1e-wOeAXuqBAACnfawVaWU629_o.jpg",
+endtime: 1472252340000,
+content: "精选广岛各类惊喜好货",
+visitors: 0,
+country: "日本",
+sellername: "anet",
+hasvedio: true
+},
+{
+id: 782831,
+pic: "http://pc1.img.ymatou.com/G02/M04/E0/06/CgvUBVe9bCaAIn6kAABmrZlLFFg479_o.jpg",
+endtime: 1472227140000,
+content: "明洞乐天免税店大采购",
+visitors: 0,
+country: "韩国",
+sellername: "韩国1号店",
+hasvedio: true
+},
+{
+id: 791042,
+pic: "http://pc1.img.ymatou.com/G02/M04/E9/49/CgvUBFe-wYqAavcRAACFV8-zNYw579_o.jpg",
+endtime: 1472251440000,
+content: "来自澳洲的纯净护肤",
+visitors: 0,
+country: "澳大利亚",
+sellername: "澳新健康海外旗舰店",
+hasvedio: true
+}
+],
+name: "体验最真实的现场血拼"
+}
+}

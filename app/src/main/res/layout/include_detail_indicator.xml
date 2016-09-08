@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:gravity="center"
+    android:orientation="horizontal">
+
+    <RelativeLayout
+        android:id="@+id/tab_product_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/tab_product"
+           style="@style/style_c7_s20"
+            android:layout_centerVertical="true"
+            android:text="商品"
+             />
+
+        <View
+            android:id="@+id/tab_product_line"
+            style="@style/indicator_line"
+            android:layout_alignParentBottom="true"
+            android:layout_alignLeft="@+id/tab_product"
+            android:layout_alignRight="@+id/tab_product"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/tab_detail_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/tab_detail"
+            style="@style/style_c7_s20"
+            android:layout_centerVertical="true"
+            android:text="详情"
+            />
+
+        <View
+            android:id="@+id/tab_detail_line"
+            style="@style/indicator_line"
+            android:layout_alignParentBottom="true"
+            android:layout_alignLeft="@+id/tab_detail"
+            android:layout_alignRight="@+id/tab_detail"
+            android:visibility="gone"
+            />
+    </RelativeLayout>
+
+</LinearLayout>

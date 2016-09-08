@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/welfare_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clipChildren="false"
+    android:layout_marginTop="10dp"
+    android:background="@color/c12"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <View
+            style="@style/vertical_bold_line_c8"
+            />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <TextView
+                style="@style/style_c6_s16"
+                android:layout_centerVertical="true"
+                android:text="精品福利" />
+
+            <TextView
+                android:id="@+id/finefare_count"
+                style="@style/style_c6_s14"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:drawablePadding="3dp"
+                android:drawableRight="@drawable/arrow"
+                android:text="共有n个福利" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <com.yju.app.widght.viewpager.LoopViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight="45dp"
+         />
+
+    <TextView
+        android:id="@+id/finefare_name"
+        style="@style/style_c8_s16"
+        android:layout_gravity="center"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="15dp"
+        android:text="" />
+</LinearLayout>
+

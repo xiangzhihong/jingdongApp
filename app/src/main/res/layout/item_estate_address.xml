@@ -1,0 +1,25 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/item_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/c12"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    android:padding="8dp" >
+
+    <TextView
+        android:id="@+id/item_name"
+        style="@style/style_c7_s16"
+        android:text="绿地橄榄城"
+        android:drawableLeft="@drawable/location_icon" />
+
+    <TextView
+        android:id="@+id/item_address"
+        style="@style/style_c5_s16"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:text="浦项目中心5号楼3单元1102室"
+        />
+
+</LinearLayout>

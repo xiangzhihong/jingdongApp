@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="bottom"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="25dp">
+
+        <ImageView
+            android:id="@+id/tel_service"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:src="@drawable/icon_about_phone" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp">
+
+            <TextView
+                style="@style/style_c6_s16"
+                android:text="商务合作" />
+
+            <TextView
+                style="@style/style_c6_s16"
+                android:layout_marginLeft="10dp"
+                android:text="4006-611-388" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp">
+
+            <TextView
+                style="@style/style_c6_s16"
+                android:text="个人用户" />
+
+            <TextView
+                style="@style/style_c6_s16"
+                android:layout_marginLeft="10dp"
+                android:text="4006-611-388" />
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

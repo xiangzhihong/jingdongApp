@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="debug"><source path="D:\android\ShiHui\Library\pull_to_refresh_lib\build\intermediates\bundles\debug\assets"/></dataSet><dataSet config="main"><source path="D:\android\ShiHui\Library\pull_to_refresh_lib\src\androidTest\assets"/><source path="D:\android\ShiHui\Library\pull_to_refresh_lib\build\generated\assets\shaders\androidTest\debug"/></dataSet></merger>

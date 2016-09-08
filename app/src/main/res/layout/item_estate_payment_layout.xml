@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/c12"
+    android:gravity="center_vertical"
+    android:padding="10dp">
+
+
+    <ImageView
+        android:id="@+id/estate_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:background="@drawable/unselect_icon" />
+
+    <TextView
+        android:id="@+id/estate_month"
+        style="@style/style_c5_s14"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="8dp"
+        android:layout_toRightOf="@+id/estate_image"
+        android:text="2016年5月" />
+
+
+    <TextView
+        android:id="@+id/estate_price"
+        style="@style/style_c8_s14"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:drawableRight="@drawable/arrow_down_icon"
+        android:drawablePadding="8dp"
+        android:text="￥1205.00" />
+
+</RelativeLayout>

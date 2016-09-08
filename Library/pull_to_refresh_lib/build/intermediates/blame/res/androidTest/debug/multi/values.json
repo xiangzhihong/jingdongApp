@@ -1,0 +1,544 @@
+[
+    {
+        "outputFile": "D:\\android\\work_space\\ShiHui\\Library\\pull_to_refresh_lib\\build\\intermediates\\res\\merged\\androidTest\\debug\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 1546,
+                    "endColumn": 63,
+                    "endOffset": 1605
+                },
+                "from": {
+                    "file": "D:\\android\\work_space\\ShiHui\\Library\\pull_to_refresh_lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 1546,
+                        "endColumn": 63,
+                        "endOffset": 1605
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 1610,
+                    "endColumn": 63,
+                    "endOffset": 1669
+                },
+                "from": {
+                    "file": "D:\\android\\work_space\\ShiHui\\Library\\pull_to_refresh_lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 1610,
+                        "endColumn": 63,
+                        "endOffset": 1669
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 1674,
+                    "endColumn": 54,
+                    "endOffset": 1724
+                },
+                "from": {
+                    "file": "D:\\android\\work_space\\ShiHui\\Library\\pull_to_refresh_lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 1674,
+                        "endColumn": 54,
+                        "endOffset": 1724
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 1729,
+                    "endColumn": 56,
+                    "endOffset": 1781
+                },
+                "from": {
+                    "file": "D:\\android\\work_space\\ShiHui\\Library\\pull_to_refresh_lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 1729,
+                        "endColumn": 56,
+                        "endOffset": 1781
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 1786,
+                    "endColumn": 54,
+                    "endOffset": 1836
+                },
+                "from": {
+                    "file": "D:\\android\\work_space\\ShiHui\\Library\\pull_to_refresh_lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 1786,
+                        "endColumn": 54,
+                        "endOffset": 1836
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 1841,
+                    "endColumn": 37,
+                    "endOffset": 1874
+                },
+                "from": {
+                    "file": "D:\\android\\work_space\\ShiHui\\Library\\pull_to_refresh_lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 1841,
+                        "endColumn": 37,
+                        "endOffset": 1874
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 1879,
+                    "endColumn": 39,
+                    "endOffset": 1914
+                },
+                "from": {
+                    "file": "D:\\android\\work_space\\ShiHui\\Library\\pull_to_refresh_lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 1879,
+                        "endColumn": 39,
+                        "endOffset": 1914
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 1919,
+                    "endColumn": 36,
+                    "endOffset": 1951
+                },
+                "from": {
+                    "file": "D:\\android\\work_space\\ShiHui\\Library\\pull_to_refresh_lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 1919,
+                        "endColumn": 36,
+                        "endOffset": 1951
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 1956,
+                    "endColumn": 101,
+                    "endOffset": 2053
+                },
+                "from": {
+                    "file": "D:\\android\\work_space\\ShiHui\\Library\\pull_to_refresh_lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 1956,
+                        "endColumn": 101,
+                        "endOffset": 2053
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 2058,
+                    "endColumn": 113,
+                    "endOffset": 2167
+                },
+                "from": {
+                    "file": "D:\\android\\work_space\\ShiHui\\Library\\pull_to_refresh_lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 2058,
+                        "endColumn": 113,
+                        "endOffset": 2167
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 2172,
+                    "endColumn": 107,
+                    "endOffset": 2275
+                },
+                "from": {
+                    "file": "D:\\android\\work_space\\ShiHui\\Library\\pull_to_refresh_lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 2172,
+                        "endColumn": 107,
+                        "endOffset": 2275
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 2280,
+                    "endColumn": 71,
+                    "endOffset": 2347
+                },
+                "from": {
+                    "file": "D:\\android\\work_space\\ShiHui\\Library\\pull_to_refresh_lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 2280,
+                        "endColumn": 71,
+                        "endOffset": 2347
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 2352,
+                    "endColumn": 69,
+                    "endOffset": 2417
+                },
+                "from": {
+                    "file": "D:\\android\\work_space\\ShiHui\\Library\\pull_to_refresh_lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 2352,
+                        "endColumn": 69,
+                        "endOffset": 2417
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 2422,
+                    "endColumn": 77,
+                    "endOffset": 2495
+                },
+                "from": {
+                    "file": "D:\\android\\work_space\\ShiHui\\Library\\pull_to_refresh_lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 2422,
+                        "endColumn": 77,
+                        "endOffset": 2495
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "D:\\android\\ShiHui\\Library\\pull_to_refresh_lib\\build\\intermediates\\res\\merged\\androidTest\\debug\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 1546,
+                    "endColumn": 63,
+                    "endOffset": 1605
+                },
+                "from": {
+                    "file": "D:\\android\\ShiHui\\Library\\pull_to_refresh_lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 1546,
+                        "endColumn": 63,
+                        "endOffset": 1605
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 1610,
+                    "endColumn": 63,
+                    "endOffset": 1669
+                },
+                "from": {
+                    "file": "D:\\android\\ShiHui\\Library\\pull_to_refresh_lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 1610,
+                        "endColumn": 63,
+                        "endOffset": 1669
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 1674,
+                    "endColumn": 54,
+                    "endOffset": 1724
+                },
+                "from": {
+                    "file": "D:\\android\\ShiHui\\Library\\pull_to_refresh_lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 1674,
+                        "endColumn": 54,
+                        "endOffset": 1724
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 1729,
+                    "endColumn": 56,
+                    "endOffset": 1781
+                },
+                "from": {
+                    "file": "D:\\android\\ShiHui\\Library\\pull_to_refresh_lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 1729,
+                        "endColumn": 56,
+                        "endOffset": 1781
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 1786,
+                    "endColumn": 54,
+                    "endOffset": 1836
+                },
+                "from": {
+                    "file": "D:\\android\\ShiHui\\Library\\pull_to_refresh_lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 1786,
+                        "endColumn": 54,
+                        "endOffset": 1836
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 1841,
+                    "endColumn": 37,
+                    "endOffset": 1874
+                },
+                "from": {
+                    "file": "D:\\android\\ShiHui\\Library\\pull_to_refresh_lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 1841,
+                        "endColumn": 37,
+                        "endOffset": 1874
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 1879,
+                    "endColumn": 39,
+                    "endOffset": 1914
+                },
+                "from": {
+                    "file": "D:\\android\\ShiHui\\Library\\pull_to_refresh_lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 1879,
+                        "endColumn": 39,
+                        "endOffset": 1914
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 1919,
+                    "endColumn": 36,
+                    "endOffset": 1951
+                },
+                "from": {
+                    "file": "D:\\android\\ShiHui\\Library\\pull_to_refresh_lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 1919,
+                        "endColumn": 36,
+                        "endOffset": 1951
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 1956,
+                    "endColumn": 101,
+                    "endOffset": 2053
+                },
+                "from": {
+                    "file": "D:\\android\\ShiHui\\Library\\pull_to_refresh_lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 1956,
+                        "endColumn": 101,
+                        "endOffset": 2053
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 2058,
+                    "endColumn": 113,
+                    "endOffset": 2167
+                },
+                "from": {
+                    "file": "D:\\android\\ShiHui\\Library\\pull_to_refresh_lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 2058,
+                        "endColumn": 113,
+                        "endOffset": 2167
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 2172,
+                    "endColumn": 107,
+                    "endOffset": 2275
+                },
+                "from": {
+                    "file": "D:\\android\\ShiHui\\Library\\pull_to_refresh_lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 2172,
+                        "endColumn": 107,
+                        "endOffset": 2275
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 2280,
+                    "endColumn": 71,
+                    "endOffset": 2347
+                },
+                "from": {
+                    "file": "D:\\android\\ShiHui\\Library\\pull_to_refresh_lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 2280,
+                        "endColumn": 71,
+                        "endOffset": 2347
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 2352,
+                    "endColumn": 69,
+                    "endOffset": 2417
+                },
+                "from": {
+                    "file": "D:\\android\\ShiHui\\Library\\pull_to_refresh_lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 2352,
+                        "endColumn": 69,
+                        "endOffset": 2417
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 2422,
+                    "endColumn": 77,
+                    "endOffset": 2495
+                },
+                "from": {
+                    "file": "D:\\android\\ShiHui\\Library\\pull_to_refresh_lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 2422,
+                        "endColumn": 77,
+                        "endOffset": 2495
+                    }
+                }
+            }
+        ]
+    }
+]

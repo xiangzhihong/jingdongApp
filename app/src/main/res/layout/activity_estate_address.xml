@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/include_title_bar" />
+
+    <View style="@style/horizontal_line" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <com.yju.swipemenu.SwipeMenuListView
+            android:id="@+id/address_listView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:animationCache="false"
+            android:divider="@color/c4"
+            android:dividerHeight="1px"
+            android:scrollbars="none"
+            android:scrollingCache="false" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/create_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/c8"
+        android:gravity="center"
+        android:minHeight="45dp"
+        android:text="新建缴费地址"
+        android:textColor="@color/c12"
+        android:textSize="16sp" />
+</LinearLayout>

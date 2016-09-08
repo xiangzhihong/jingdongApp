@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        style="@style/style_c5_s14"
+        android:padding="10dp"
+        android:text="活动规则" />
+
+    <TextView
+        style="@style/style_c6_s14"
+        android:layout_gravity="left"
+        android:padding="10dp"
+        android:text="【抢购中】活动状态为进行中，商品活动库存不等于0;\n【活动结束】活动状态为已结束or活动状态为进行中，商品活动库存等于0；\n【未开始】活动状态为审核通过，未到开始时间（预热期的活动商品）。" />
+
+    <TextView
+        style="@style/style_c5_s14"
+        android:padding="10dp"
+        android:text="商品描述" />
+
+    <TextView
+        style="@style/style_c6_s14"
+        android:padding="10dp"
+        android:text="显示后台商品设置的商品描述内容" />
+
+</LinearLayout>

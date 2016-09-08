@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    android:background="@color/c12"
+
+    android:orientation="horizontal">
+
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:layout_gravity="center_vertical"
+        android:orientation="horizontal"
+        >
+        <TextView
+            style="@style/style_c7_s14"
+            android:text="社区" />
+
+        <TextView
+            style="@style/style_c12_s14"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/recent_red_bg"
+            android:paddingLeft="3dp"
+            android:paddingRight="3dp"
+            android:paddingTop="1dp"
+            android:paddingBottom="1dp"
+            android:text="通知" />
+
+        <com.yju.app.shihui.welfare.view.lamp.HorizonScrollTextView
+            android:id="@+id/horizonScrollTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="15dp"
+             />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/lamp_more"
+        style="@style/style_c5_s16"
+        android:drawableRight="@drawable/arrow"
+        android:drawablePadding="5dp"
+        android:text="更多" />
+</LinearLayout>
+

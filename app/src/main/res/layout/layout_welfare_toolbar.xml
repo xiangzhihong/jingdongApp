@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/welfare_bar_view"
+    android:layout_width="match_parent"
+    android:layout_height="45dp"
+    android:background="#f86c6c"
+    android:paddingLeft="15dp"
+    android:paddingRight="5dp">
+
+    <ImageView
+        android:id="@+id/code_iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:contentDescription="@string/app_name"
+        android:scaleType="centerCrop"
+        android:src="@drawable/qrcode_38_38" />
+
+    <TextView
+        android:id="@+id/toobar_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:singleLine="true"
+        android:textColor="#ffffff"
+        android:textSize="15sp" />
+
+
+</RelativeLayout>

@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.yju.app.widght.banner.BannerView
+        android:id="@+id/detail_banner"
+        android:layout_width="match_parent"
+        android:layout_height="260dp"
+        app:indicator_drawable_selected="@drawable/point_press_bg"
+        app:indicator_drawable_unselected="@drawable/point_normal_bg"
+        app:indicator_radius="7dp"
+        />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/detail_left"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/c8"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+
+            <TextView
+                style="@style/style_c12_s20"
+                android:text="￥30" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/style_c12_s14"
+                    android:text="市场价￥40" />
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="5dp"
+                    android:gravity="center_vertical">
+                <TextView
+                    style="@style/style_c12_s14"
+                    android:text="距结束" />
+
+                <com.yju.app.widght.timecount.CountDownView
+                    android:id="@+id/countdown_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="center_vertical"
+                    />
+
+            </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignBottom="@+id/detail_left"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/detail_left"
+            android:background="@drawable/yellow_corner_bg"
+            android:gravity="center"
+            android:minWidth="120dp"
+            android:orientation="vertical"
+            android:paddingLeft="40dp"
+            android:paddingRight="10dp">
+
+            <TextView
+                style="@style/style_c7_s14"
+                android:layout_marginTop="10dp"
+                android:text="距结束" />
+
+            <TextView
+                style="@style/style_c12_s14"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/recent_red_bg"
+                android:paddingBottom="3dp"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:paddingTop="3dp"
+                android:text="999件已售" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/style_c7_s16"
+                android:text="澳洲井口牛奶1L" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/style_c8_s14"
+                    android:text="热销1万件" />
+
+                <TextView
+                    style="@style/style_c8_s14"
+                    android:layout_marginLeft="20dp"
+                    android:text="夏日必备" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <View style="@style/style_dot_vertical_line" />
+
+        <TextView
+            style="@style/style_c5_s14"
+            android:layout_marginLeft="10dp"
+            android:drawableTop="@drawable/share_orange_icon"
+            android:text="分享" />
+
+    </LinearLayout>
+
+    <TextView
+        style="@style/style_c5_s14"
+        android:layout_marginLeft="10dp"
+        android:drawableLeft="@drawable/benefit_icon"
+        android:drawablePadding="5dp"
+        android:text="实惠现金可抵扣5元" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <TextView
+            style="@style/style_c5_s14"
+            android:text="活动范围" />
+
+        <TextView
+            style="@style/style_c7_s14"
+            android:layout_marginLeft="20dp"
+            android:text="上海" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="right">
+
+            <TextView
+                style="@style/style_c6_s14"
+                android:text="包邮" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <TextView
+            style="@style/style_c5_s14"
+            android:text="活动范围" />
+
+        <TextView
+            style="@style/style_c7_s14"
+            android:layout_marginLeft="20dp"
+            android:text="可享受优惠" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="right|center_vertical">
+
+            <ImageView
+                style="@style/style_c6_s14"
+                android:background="@drawable/arrow_down_red_icon"
+                android:gravity="center_vertical" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <TextView
+        style="@style/style_c5_s14"
+        android:padding="10dp"
+        android:text="活动规则" />
+
+    <TextView
+        style="@style/style_c6_s14"
+        android:layout_gravity="left"
+        android:padding="10dp"
+        android:text="【抢购中】活动状态为进行中，商品活动库存不等于0;\n【活动结束】活动状态为已结束or活动状态为进行中，商品活动库存等于0；\n【未开始】活动状态为审核通过，未到开始时间（预热期的活动商品）。" />
+
+    <TextView
+        style="@style/style_c5_s14"
+        android:padding="10dp"
+        android:text="商品参数" />
+
+    <TextView
+        style="@style/style_c6_s14"
+        android:padding="10dp"
+        android:text="参数a描述" />
+
+    <TextView
+        style="@style/style_c5_s14"
+        android:padding="10dp"
+        android:text="商品描述" />
+
+    <TextView
+        style="@style/style_c6_s14"
+        android:padding="10dp"
+        android:text="a2牛奶公司是全球真正掌握质量控制系统和技术提供天然和纯净的a2牛奶公司，a2白金™就是基于a2牛奶配制而成的婴幼儿配方奶粉。a2牛奶是高端乳品领导品牌，并快速扩张进入美国和中国市场。a2白金™是畅销澳大利亚的高端婴幼儿奶粉的领导品牌" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <TextView
+            style="@style/style_c5_s14"
+            android:drawableLeft="@drawable/arrow_down_icon"
+            android:drawablePadding="5dp"
+            android:padding="10dp"
+            android:text="继续下拉查看图文详情" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,171 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/welfare_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:background="@color/c12"
+    android:clipChildren="false"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp">
+
+        <View style="@style/vertical_bold_line_c8" />
+
+
+        <TextView
+            style="@style/style_c6_s16"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:text="物业服务" />
+
+        <TextView
+            android:id="@+id/finefare_count"
+            style="@style/style_c5_s14"
+            android:layout_marginLeft="10dp"
+            android:text="更快捷更便利" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/estate_payment_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.5"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/style_c8_s16"
+                    android:text="物业缴费" />
+
+                <TextView
+                    style="@style/style_c7_s16"
+                    android:layout_marginLeft="5dp"
+                    android:text="足不出户享便利" />
+
+            </LinearLayout>
+
+            <TextView
+                style="@style/style_c6_s14"
+                android:layout_marginTop="10dp"
+                android:text="费用明细请收看" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/estate_icon" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <View style="@style/horizontal_line" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:gravity="center_vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/style_c13_s16"
+                    android:text="物业报修" />
+
+                <TextView
+                    style="@style/style_c5_s14"
+                    android:layout_marginTop="5dp"
+                    android:text="高效有保障" />
+
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:background="@drawable/server_man_icon" />
+
+        </LinearLayout>
+
+        <View
+            style="@style/vertical_line"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:gravity="center_vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/style_c15_s16"
+                    android:text="意见反馈" />
+
+                <TextView
+                    style="@style/style_c5_s14"
+                    android:layout_marginTop="5dp"
+                    android:text="倾听和改进" />
+
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:background="@drawable/service_icon" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

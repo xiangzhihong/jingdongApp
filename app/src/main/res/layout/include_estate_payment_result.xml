@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="10dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/payment_detail_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/c15"
+        android:orientation="horizontal"
+        android:paddingBottom="30dp"
+        android:paddingTop="30dp">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/style_c12_s18"
+                android:text="应缴月数" />
+
+            <TextView
+                style="@style/style_c12_s20"
+                android:layout_marginTop="15dp"
+                android:text="3个月" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/style_c12_s18"
+                android:text="应缴物业费" />
+
+            <TextView
+                style="@style/style_c12_s20"
+                android:layout_marginTop="15dp"
+                android:text="￥3567.00" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:id="@+id/payment_over_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/c15"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:paddingBottom="30dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingTop="30dp"
+        android:visibility="gone">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/nopay_icon"
+           />
+
+        <TextView
+            style="@style/style_c12_s16"
+            android:layout_marginTop="15dp"
+            android:text="恭喜，当前物业费已缴至2018年12月，无需继续缴费" />
+
+        </LinearLayout>
+
+</LinearLayout>

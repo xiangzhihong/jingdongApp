@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/include_title_bar" />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/estate_address_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/c12"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <TextView
+                    style="@style/style_c6_s16"
+                    android:drawableLeft="@drawable/location_icon"
+                    android:drawablePadding="5dp"
+                    android:gravity="center_vertical"
+                    android:text="缴费地址" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp">
+
+                    <TextView
+                        style="@style/style_c5_s14"
+                        android:layout_marginLeft="25dp"
+                        android:maxLines="1"
+                        android:text="绿地橄榄城xx中心15号楼3单元2102室" />
+
+
+                    <ImageView
+                        style="@style/style_c5_s16"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:background="@drawable/arrow" />
+                </RelativeLayout>
+
+                <TextView
+                    style="@style/style_c5_s14"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginTop="10dp"
+                    android:maxLines="1"
+                    android:text="张三" />
+                />
+
+            </LinearLayout>
+
+            <!--缴费结果start-->
+            <include layout="@layout/include_estate_payment_result" />
+
+            <com.yju.app.widght.MeasureExpandableListView
+                android:id="@+id/estate_listView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:childDivider="@color/c3"
+                android:divider="@color/c4"
+                android:dividerHeight="1px"
+                android:groupIndicator="@null"
+                android:scrollbars="none"
+                 />
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            style="@style/style_c5_s14"
+            android:text="融科橄榄城物业中心" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp">
+
+            <TextView
+                style="@style/style_c5_s14"
+                android:text="咨询电话:" />
+
+            <TextView
+                style="@style/style_c15_s14"
+                android:layout_marginLeft="3dp"
+                android:text="84781477" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="50dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.8"
+            android:background="@color/c7"
+            android:gravity="center_vertical|right"
+            android:orientation="horizontal"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp">
+
+            <TextView
+                style="@style/style_c12_s14"
+                android:text="总计" />
+
+            <TextView
+                style="@style/style_c8_s18"
+                android:layout_marginLeft="15dp"
+                android:text="￥3567.00" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/c8"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/style_c12_s16"
+                android:gravity="center"
+                android:text="去支付" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

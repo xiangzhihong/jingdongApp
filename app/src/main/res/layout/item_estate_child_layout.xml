@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:descendantFocusability="blocksDescendants"
+    android:background="@color/c12"
+    android:gravity="center_vertical"
+    android:padding="15dp">
+
+
+    <View
+        android:id="@+id/child_point"
+        android:layout_width="6dp"
+        android:layout_height="6dp"
+        android:layout_centerVertical="true"
+        android:background="@drawable/black_point_bg" />
+
+    <TextView
+        android:id="@+id/child_title"
+        style="@style/style_c7_s14"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/child_point"
+        android:text="管理费1.4" />
+
+
+    <TextView
+        android:id="@+id/child_price"
+        style="@style/style_c7_s14"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:text="￥1205.00" />
+
+</RelativeLayout>

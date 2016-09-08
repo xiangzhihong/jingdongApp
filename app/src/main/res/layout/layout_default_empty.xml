@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/empty_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+   >
+
+  <ImageView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:background="@drawable/default_empty_icon"/>
+
+   <TextView
+       android:id="@+id/empty_tv"
+       style="@style/style_c17_s16"
+       android:layout_marginTop="10dp"
+       android:text="暂无数据"
+       />
+
+
+</LinearLayout>

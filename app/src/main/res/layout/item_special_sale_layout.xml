@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ptr="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="160dp">
+
+       <ImageView
+           android:id="@+id/special_image"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:minHeight="160dp"
+           android:background="@drawable/special_sale_default_icon"/>
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_alignParentBottom="true"
+           android:gravity="center_vertical"
+           android:minHeight="25dp"
+           android:background="#e0738089"
+           android:orientation="vertical" >
+
+           <TextView
+               android:id="@+id/special_label"
+               style="@style/style_c12_s16"
+               android:layout_marginLeft="20dp"
+               android:text="满269减40"/>
+       </LinearLayout>
+
+   </RelativeLayout>
+
+  <RelativeLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:padding="10dp"
+      >
+
+      <TextView
+          android:id="@+id/special_name"
+          style="@style/style_c6_s16"
+          android:text="拉杆箱专卖"/>
+
+      <TextView
+          android:id="@+id/special_left_time"
+          style="@style/style_c5_s16"
+          android:layout_alignParentRight="true"
+          android:text="剩余12个小时"/>
+  </RelativeLayout>
+
+</LinearLayout>

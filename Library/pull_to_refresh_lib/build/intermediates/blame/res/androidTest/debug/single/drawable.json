@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "D:\\android\\work_space\\ShiHui\\Library\\pull_to_refresh_lib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\circulation_animation.xml",
+        "source": "D:\\android\\work_space\\ShiHui\\Library\\pull_to_refresh_lib\\build\\intermediates\\bundles\\debug\\res\\drawable\\circulation_animation.xml"
+    },
+    {
+        "merged": "D:\\android\\ShiHui\\Library\\pull_to_refresh_lib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\indicator_bg_bottom.xml",
+        "source": "D:\\android\\ShiHui\\Library\\pull_to_refresh_lib\\build\\intermediates\\bundles\\debug\\res\\drawable\\indicator_bg_bottom.xml"
+    },
+    {
+        "merged": "D:\\android\\work_space\\ShiHui\\Library\\pull_to_refresh_lib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\indicator_bg_bottom.xml",
+        "source": "D:\\android\\work_space\\ShiHui\\Library\\pull_to_refresh_lib\\build\\intermediates\\bundles\\debug\\res\\drawable\\indicator_bg_bottom.xml"
+    },
+    {
+        "merged": "D:\\android\\work_space\\ShiHui\\Library\\pull_to_refresh_lib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\start_animation.xml",
+        "source": "D:\\android\\work_space\\ShiHui\\Library\\pull_to_refresh_lib\\build\\intermediates\\bundles\\debug\\res\\drawable\\start_animation.xml"
+    },
+    {
+        "merged": "D:\\android\\work_space\\ShiHui\\Library\\pull_to_refresh_lib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\indicator_bg_top.xml",
+        "source": "D:\\android\\work_space\\ShiHui\\Library\\pull_to_refresh_lib\\build\\intermediates\\bundles\\debug\\res\\drawable\\indicator_bg_top.xml"
+    },
+    {
+        "merged": "D:\\android\\ShiHui\\Library\\pull_to_refresh_lib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\indicator_bg_top.xml",
+        "source": "D:\\android\\ShiHui\\Library\\pull_to_refresh_lib\\build\\intermediates\\bundles\\debug\\res\\drawable\\indicator_bg_top.xml"
+    },
+    {
+        "merged": "D:\\android\\ShiHui\\Library\\pull_to_refresh_lib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\start_animation.xml",
+        "source": "D:\\android\\ShiHui\\Library\\pull_to_refresh_lib\\build\\intermediates\\bundles\\debug\\res\\drawable\\start_animation.xml"
+    },
+    {
+        "merged": "D:\\android\\ShiHui\\Library\\pull_to_refresh_lib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\circulation_animation.xml",
+        "source": "D:\\android\\ShiHui\\Library\\pull_to_refresh_lib\\build\\intermediates\\bundles\\debug\\res\\drawable\\circulation_animation.xml"
+    }
+]

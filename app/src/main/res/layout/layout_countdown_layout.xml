@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@color/c8"
+    >
+
+    <TextView
+        android:id="@+id/tv_day"
+        style="@style/style_countdown" />
+
+    <TextView
+        style="@style/style_countdown_dot2"
+        android:text="天"/>
+
+    <TextView
+        android:id="@+id/tv_hour"
+        style="@style/style_countdown" />
+
+    <TextView
+       style="@style/style_countdown_dot"
+        android:text=":"/>
+
+    <TextView
+        android:id="@+id/tv_minute"
+        style="@style/style_countdown" />
+
+    <TextView
+        style="@style/style_countdown_dot"
+        android:text=":"/>
+
+    <TextView
+        android:id="@+id/tv_second"
+        style="@style/style_countdown" />
+
+
+</LinearLayout>
