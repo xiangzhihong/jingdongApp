@@ -1,7 +1,6 @@
 package com.yju.app.shihui.welfare.view;
 
 import android.content.Context;
-import android.os.Build;
 import android.support.v4.view.ViewPager;
 import android.util.AttributeSet;
 import android.view.MotionEvent;
@@ -38,6 +37,7 @@ public class WelfareView extends SimpleLinearLayout {
 
     private WelfareAdapter adapter = null;
     private List<PanicBean> welfareList = null;
+    private int lastItemIndex = 0;
 
     public WelfareView(Context context) {
         super(context);
@@ -51,32 +51,24 @@ public class WelfareView extends SimpleLinearLayout {
     protected void initViews() {
         contentView = inflate(mContext, R.layout.layout_welfare, this);
         ButterKnife.bind(this);
-
-        initViewPager();
-        initTouch();
+        init();
     }
 
+    private void init() {
+        initViewPager();
+        initTouch();
+        initListener();
+    }
 
-    private void initTouch() {
-        //这里要把父类的touch事件传给子类，不然边上的会滑不动
-        setOnTouchListener(new OnTouchListener() {
-            @Override
-            public boolean onTouch(View v, MotionEvent event) {
-                return viewPager.dispatchTouchEvent(event);
-            }
-        });
-
+    private void initListener() {
         viewPager.addOnPageChangeListener(new ViewPager.OnPageChangeListener() {
             @Override
             public void onPageScrolled(int position, float positionOffset, int positionOffsetPixels) {
-//                if (Build.VERSION.SDK_INT < Build.VERSION_CODES.KITKAT) {
-//                    if (position==0||position==getCount() - 1)
-//                    welfareView.invalidate();
-//                }
             }
 
             @Override
             public void onPageSelected(int position) {
+                applyTransform(position);
                 finefareName.setText(welfareList.get(getCurrentDisplayItem()).id);
             }
 
@@ -87,8 +79,16 @@ public class WelfareView extends SimpleLinearLayout {
         });
     }
 
+    private void initTouch() {
+        setOnTouchListener(new OnTouchListener() {
+            @Override
+            public boolean onTouch(View v, MotionEvent event) {
+                return viewPager.dispatchTouchEvent(event);
+            }
+        });
+    }
+
     private void initViewPager() {
-        viewPager.setOffscreenPageLimit(3);
         viewPager.setPageTransformer(true, new ScalePagerTransformer());
         //设置Pager之间的间距
         viewPager.setPageMargin(UIUtils.dp2px(mContext, 10));
@@ -106,21 +106,29 @@ public class WelfareView extends SimpleLinearLayout {
         adapter = new WelfareAdapter(mContext);
         adapter.setDatas(datas);
         viewPager.setAdapter(adapter);
+        viewPager.setOffscreenPageLimit(getCount());
         viewPager.setCurrentItem(adapter.getCount() > 0 ? 1 : 0, true);
     }
 
     private int getCount() {
-        if (adapter != null) {
-            return adapter.getCount();
-        }
-        return 0;
+        return adapter!=null?adapter.getCount():0;
     }
 
     public int getCurrentDisplayItem() {
-        if (viewPager != null) {
-            return viewPager.getCurrentItem();
+        return viewPager!=null?viewPager.getCurrentItem():0;
+    }
+
+    private void applyTransform(int currentPosition) {
+        if (currentPosition>getCount()){
+            currentPosition=getCount();
         }
-        return 0;
+        if (lastItemIndex == currentPosition) {
+            if (viewPager != null && viewPager.beginFakeDrag()) {
+                viewPager.fakeDragBy(0f);
+                viewPager.endFakeDrag();
+            }
+        }
+        lastItemIndex = currentPosition;
     }
 
 }
